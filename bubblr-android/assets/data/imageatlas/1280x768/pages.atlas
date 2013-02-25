@@ -1,0 +1,12 @@
+
+pages.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+elfe
+  rotate: false
+  xy: 1, 1
+  size: 293, 320
+  orig: 293, 320
+  offset: 0, 0
+  index: -1
