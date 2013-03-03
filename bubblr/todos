@@ -1,5 +1,32 @@
 
 
+
+done:
+- fixed viewport and virtual resolution in world-coordinates
+- use different imageatlasses for different resolutions
+
+
+actual problems:
+- tiledmap needs to resize correctly
+- tiledmap needs to stay in the middle of screen
+- tiledmap needs to use different tilesets for different resolutions
+- tilesets for different resolutions must have same order of tiles (change texturepacker?)
+- maybe a problem: rounding errors of tiles (world-coordinates vs. resolutions)
+
+
+todos after that:
+- collision detection player <-> tiledmap (box2d fixtures for tiles)
+
+
+
+--------------------------------
+
+
+http://www.badlogicgames.com/forum/viewtopic.php?f=11&t=7534#p36698
+
+
+
+
 - texturepacker umbauen damit tilesets immer in der gleichen ordnung erstellt werden
 	damit tilesets bei unterschiedlichen auflösungen mit ein und derselben tiledmap funktionieren
 
