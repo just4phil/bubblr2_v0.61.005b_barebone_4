@@ -100,6 +100,14 @@ public class WorldRenderer  {
 		// camera sees and render the map
 
 		renderer.setView(worldCamera);
+		
+//		renderer.setView(worldCamera.combined, 
+//				worldCamera.position.x - worldCamera.viewportWidth / 2, 
+//				worldCamera.position.y - worldCamera.viewportHeight / 2, 
+//				2 * (worldCamera.viewportWidth / 3), 
+//				worldCamera.viewportHeight); // Not optimized
+		
+		
 		renderer.render();
 		
 		

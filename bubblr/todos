@@ -1,0 +1,6 @@
+
+
+- texturepacker umbauen damit tilesets immer in der gleichen ordnung erstellt werden
+	damit tilesets bei unterschiedlichen auflösungen mit ein und derselben tiledmap funktionieren
+
+	
