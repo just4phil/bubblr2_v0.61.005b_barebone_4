@@ -12,11 +12,11 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.Texture.TextureFilter;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 
 
 public class Assets {
-
 	
 	private final static String PATH_IMAGE_ATLAS = "data/imageatlas";
 	private final static String FILE_IMAGE_ATLAS = "data/imageatlas/pages.atlas";
@@ -82,6 +82,17 @@ public class Assets {
 //        Texture.setAssetManager(m_assetManager);		// this caused the bug of the white screen after resuming from swarm screen!!!
 		
 		
+        //-------------- load resolution dependent TMX map ----------------------------
+        
+        
+		Resolution[] resolutions = new Resolution[] {
+				new Resolution(320, 480, "320"),
+				new Resolution(480, 800, "480"),
+			};
+				
+			resolver = new ResolutionFileResolver(new InternalFileHandleResolver(), resolutions);
+			m_assetManager.setLoader(AtlasTiledMap.class, new AtlasTiledMapLoader(resolver));		
+			m_assetManager.load("data/maps/multi.tmx", AtlasTiledMap.class, new AtlasTiledMapLoader.AtlasTiledMapLoaderParameters());
 	}	
 	
 	
@@ -103,7 +114,8 @@ public class Assets {
 			
 			elfe = imageAtlasGame.findRegion("elfe");
 			
-		}
+		}		
+		
 	}	
 	
 }
