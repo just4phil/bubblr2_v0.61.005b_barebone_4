@@ -83,16 +83,10 @@ public class Assets {
 		
 		
         //-------------- load resolution dependent TMX map ----------------------------
-        
-        
-		Resolution[] resolutions = new Resolution[] {
-				new Resolution(320, 480, "320"),
-				new Resolution(480, 800, "480"),
-			};
 				
-			resolver = new ResolutionFileResolver(new InternalFileHandleResolver(), resolutions);
+//			resolver = new ResolutionFileResolver(new InternalFileHandleResolver(), resolutionsGame);
 			m_assetManager.setLoader(AtlasTiledMap.class, new AtlasTiledMapLoader(resolver));		
-			m_assetManager.load("data/maps/multi.tmx", AtlasTiledMap.class, new AtlasTiledMapLoader.AtlasTiledMapLoaderParameters());
+			m_assetManager.load("data/maps/level.tmx", AtlasTiledMap.class, new AtlasTiledMapLoader.AtlasTiledMapLoaderParameters());
 	}	
 	
 	

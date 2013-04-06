@@ -1,0 +1,327 @@
+
+tile.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+tile
+  rotate: false
+  xy: 0, 0
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 9
+tile
+  rotate: false
+  xy: 20, 0
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 8
+tile
+  rotate: false
+  xy: 40, 0
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 7
+tile
+  rotate: false
+  xy: 0, 20
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 6
+tile
+  rotate: false
+  xy: 20, 20
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 5
+tile
+  rotate: false
+  xy: 40, 20
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 45
+tile
+  rotate: false
+  xy: 0, 40
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 44
+tile
+  rotate: false
+  xy: 20, 40
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 43
+tile
+  rotate: false
+  xy: 40, 40
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 42
+tile
+  rotate: false
+  xy: 0, 60
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 41
+tile
+  rotate: false
+  xy: 20, 60
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 40
+tile
+  rotate: false
+  xy: 40, 60
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 4
+tile
+  rotate: false
+  xy: 0, 80
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 39
+tile
+  rotate: false
+  xy: 20, 80
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 38
+tile
+  rotate: false
+  xy: 40, 80
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 37
+tile
+  rotate: false
+  xy: 0, 100
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 36
+tile
+  rotate: false
+  xy: 20, 100
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 35
+tile
+  rotate: false
+  xy: 40, 100
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 34
+tile
+  rotate: false
+  xy: 0, 120
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 33
+tile
+  rotate: false
+  xy: 20, 120
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 32
+tile
+  rotate: false
+  xy: 40, 120
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 31
+tile
+  rotate: false
+  xy: 0, 140
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 30
+tile
+  rotate: false
+  xy: 20, 140
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 3
+tile
+  rotate: false
+  xy: 40, 140
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 29
+tile
+  rotate: false
+  xy: 0, 160
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 28
+tile
+  rotate: false
+  xy: 20, 160
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 27
+tile
+  rotate: false
+  xy: 40, 160
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 26
+tile
+  rotate: false
+  xy: 0, 180
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 25
+tile
+  rotate: false
+  xy: 20, 180
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 24
+tile
+  rotate: false
+  xy: 40, 180
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 23
+tile
+  rotate: false
+  xy: 0, 200
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 22
+tile
+  rotate: false
+  xy: 20, 200
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 21
+tile
+  rotate: false
+  xy: 40, 200
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 20
+tile
+  rotate: false
+  xy: 0, 220
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 2
+tile
+  rotate: false
+  xy: 20, 220
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 19
+tile
+  rotate: false
+  xy: 40, 220
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 18
+tile
+  rotate: false
+  xy: 0, 240
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 17
+tile
+  rotate: false
+  xy: 20, 240
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 16
+tile
+  rotate: false
+  xy: 40, 240
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 15
+tile
+  rotate: false
+  xy: 0, 260
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 14
+tile
+  rotate: false
+  xy: 20, 260
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 13
+tile
+  rotate: false
+  xy: 40, 260
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 12
+tile
+  rotate: false
+  xy: 0, 280
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 11
+tile
+  rotate: false
+  xy: 20, 280
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 10
+tile
+  rotate: false
+  xy: 40, 280
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 1
+tile
+  rotate: false
+  xy: 0, 300
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: 0

@@ -16,7 +16,7 @@ public class WorldRenderer  {
 	//--------------------------------------------------------------
 	public TiledMap map;
 	public ResolutionTiledMapRenderer TMXrenderer;
-	private final static String MultiMAP = "data/maps/multi.tmx";
+	private final static String MultiMAP = "data/maps/level.tmx";
 	//--------------------------------------------------------------	
 	
 	Bubblr bubblr;
@@ -35,10 +35,8 @@ public class WorldRenderer  {
 		worldCamera = bubblr.getWorldCamera();      	
 		
 		map = Bubblr.getAssetManager().get(MultiMAP, AtlasTiledMap.class);
-		TMXrenderer = new ResolutionTiledMapRenderer(map, 1f / 32f);	
-//		TMXrenderer = new ResolutionTiledMapRenderer(map, bubblr.getPixelPerMeter());	
-		
-		
+		TMXrenderer = new ResolutionTiledMapRenderer(map, 1f / 60f);	
+//		TMXrenderer = new ResolutionTiledMapRenderer(map, 1f / bubblr.getPixelPerMeter());	
 		
 	}
 
